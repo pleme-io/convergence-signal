@@ -52,7 +52,7 @@
         namespace = "convergence-signal";
         architectures = ["arm64"];
         nativeBuildInputs = [];
-        ports = { health = 8080; http = 8080; };
+        ports = { health = 8080; metrics = 8080; http = 8080; };
       };
     in {
       packages = outputs.packages;
