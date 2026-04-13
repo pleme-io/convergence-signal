@@ -1,0 +1,7 @@
+# Forge deployment configuration for convergence-signal.
+# FluxCD handles deployment via pleme-io/akeyless-k8s GitOps repo.
+name: convergence-signal
+registry: ghcr.io/pleme-io/convergence-signal
+push_only: true
+wait_for_rollout: false
+skip_flux_health_check: true
